@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<BorderPane fx:id="mainBoundary" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.studentgradingsystem.controller.TeacherDashboardController">
+
+    <!-- Sidebar Navigation -->
+    <left>
+        <VBox spacing="15.0" style="-fx-background-color: #1E8449;" prefWidth="230.0">
+            <padding>
+                <Insets top="30.0" left="15.0" right="15.0" bottom="20.0"/>
+            </padding>
+            <Text text="TEACHER PANEL" fill="WHITE" style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+            <Separator opacity="0.3"/>
+
+            <Button text="Enter Marks" onAction="#handleEnterMarks" maxWidth="Infinity"
+                    style="-fx-background-color: transparent; -fx-text-fill: white; -fx-cursor: hand; -fx-alignment: CENTER_LEFT; -fx-font-size: 15px;"/>
+
+            <Button text="View Reports" onAction="#handleViewReports" maxWidth="Infinity"
+                    style="-fx-background-color: transparent; -fx-text-fill: white; -fx-cursor: hand; -fx-alignment: CENTER_LEFT; -fx-font-size: 15px;"/>
+
+            <!-- This Region pushes the Logout button down -->
+            <Region VBox.vgrow="ALWAYS" />
+
+            <Button text="Logout" onAction="#handleLogout" maxWidth="Infinity"
+                    style="-fx-background-color: #E74C3C; -fx-text-fill: white; -fx-font-weight: bold; -fx-cursor: hand; -fx-padding: 10;"/>
+        </VBox>
+    </left>
+
+    <!-- Center Content with ScrollPane -->
+    <center>
+        <ScrollPane fitToHeight="true" fitToWidth="true" style="-fx-background-color: transparent; -fx-background: #F4F7F6;">
+            <content>
+                <VBox alignment="CENTER" spacing="30.0">
+                    <padding>
+                        <Insets top="40" bottom="40" left="20" right="20"/>
+                    </padding>
+
+                    <Text text="Welcome to Teacher Dashboard"
+                          style="-fx-font-size: 36px; -fx-font-weight: bold; -fx-fill: #1E8449;"/>
+
+                    <ImageView fitHeight="450.0" fitWidth="650.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@./images/teacher_img.png" />
+                        </image>
+                    </ImageView>
+
+                    <Label text="Welcome! Please select 'Enter Marks' from the sidebar to manage student grades."
+                           style="-fx-font-size: 18px; -fx-fill: #7F8C8D; -fx-font-style: italic;" wrapText="true" alignment="CENTER"/>
+                </VBox>
+            </content>
+        </ScrollPane>
+    </center>
+</BorderPane>

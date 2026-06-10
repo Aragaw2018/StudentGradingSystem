@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+
+<VBox spacing="15.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.studentgradingsystem.controller.SubjectController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Text text="Manage Subjects" style="-fx-font-size: 26px; -fx-font-weight: bold; -fx-fill: #2C3E50;"/>
+
+    <HBox spacing="20">
+        <!-- Input Form Section -->
+        <VBox spacing="10" prefWidth="300" style="-fx-background-color: #f4f4f4; -fx-padding: 15; -fx-border-color: #ddd; -fx-border-radius: 5;">
+
+            <Label text="Subject Details" style="-fx-font-weight: bold; -fx-font-size: 15px; -fx-text-fill: #2E86C1;"/>
+            <Separator/>
+
+            <Label text="Subject Code:"/>
+            <TextField fx:id="codeField" promptText="e.g. CS101"/>
+
+            <Label text="Subject Name:"/>
+            <TextField fx:id="nameField" promptText="e.g. Data Structures"/>
+
+            <Label text="Assigned Teacher:"/>
+            <ComboBox fx:id="teacherComboBox" promptText="Select a Teacher" prefWidth="270"/>
+
+            <Region prefHeight="20"/> <!-- Spacer -->
+
+            <HBox spacing="8" alignment="CENTER">
+                <Button text="Add" onAction="#handleAddSubject" prefWidth="65"
+                        style="-fx-background-color: #27AE60; -fx-text-fill: white; -fx-font-weight: bold; -fx-cursor: hand;"/>
+                <Button text="Update" onAction="#handleUpdateSubject" prefWidth="65"
+                        style="-fx-background-color: #2980B9; -fx-text-fill: white; -fx-font-weight: bold; -fx-cursor: hand;"/>
+                <Button text="Delete" onAction="#handleDeleteSubject" prefWidth="65"
+                        style="-fx-background-color: #C0392B; -fx-text-fill: white; -fx-font-weight: bold; -fx-cursor: hand;"/>
+                <Button text="Clear" onAction="#clearFields" prefWidth="65"
+                        style="-fx-background-color: #7F8C8D; -fx-text-fill: white; -fx-font-weight: bold; -fx-cursor: hand;"/>
+            </HBox>
+        </VBox>
+
+        <!-- Table Section -->
+        <TableView fx:id="subjectTable" HBox.hgrow="ALWAYS" onMouseClicked="#handleTableClick" style="-fx-focus-color: transparent;">
+            <columns>
+                <TableColumn fx:id="colCode" text="Subject Code" prefWidth="120"/>
+                <TableColumn fx:id="colName" text="Subject Name" prefWidth="250"/>
+                <TableColumn fx:id="colTeacher" text="Assigned Teacher" prefWidth="200"/>
+            </columns>
+        </TableView>
+    </HBox>
+</VBox>

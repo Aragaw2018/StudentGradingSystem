@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<VBox alignment="CENTER" spacing="20.0" prefHeight="650.0" prefWidth="500.0"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.studentgradingsystem.controller.LoginController"
+      style="-fx-background-color: #ffffff; -fx-border-color: #2E86C1; -fx-border-width: 2;">
+    <padding>
+        <Insets bottom="30.0" left="40.0" right="40.0" top="30.0"/>
+    </padding>
+
+    <Text text="Student Grading System" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-fill: #2E86C1;"/>
+
+    <ImageView fx:id="logoImageView" fitHeight="150.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@./images/login.png" />
+        </image>
+    </ImageView>
+
+    <Separator prefWidth="400.0" />
+
+    <GridPane vgap="15" hgap="15" alignment="CENTER">
+        <Label text="Username:" style="-fx-font-size: 16px; -fx-font-weight: bold;" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="usernameField" prefHeight="35" prefWidth="250" promptText="Enter your username" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+        <Label text="Password:" style="-fx-font-size: 16px; -fx-font-weight: bold;" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+
+        <!-- Password field container -->
+        <StackPane GridPane.rowIndex="1" GridPane.columnIndex="1">
+            <PasswordField fx:id="passwordField" prefHeight="35" prefWidth="250" promptText="Enter your password"/>
+            <TextField fx:id="passwordTextField" prefHeight="35" prefWidth="250" promptText="Enter your password" visible="false"/>
+        </StackPane>
+    </GridPane>
+
+    <!-- Show Password Checkbox -->
+    <CheckBox fx:id="showPasswordCheckbox" text="Show Password" onAction="#togglePassword" style="-fx-cursor: hand;"/>
+
+    <HBox spacing="15" alignment="CENTER">
+        <Button text="Login" onAction="#handleLogin" prefHeight="40" prefWidth="120"
+                style="-fx-background-color: #2E86C1; -fx-text-fill: white; -fx-font-weight: bold; -fx-cursor: hand;"/>
+        <Button text="Clear" onAction="#handleClear" prefHeight="40" prefWidth="120"
+                style="-fx-background-color: #BDC3C7; -fx-text-fill: black; -fx-font-weight: bold; -fx-cursor: hand;"/>
+    </HBox>
+
+    <Button text="Forgot Password?" onAction="#handleForgotPassword"
+            style="-fx-background-color: transparent; -fx-text-fill: #E74C3C; -fx-underline: true; -fx-cursor: hand;"/>
+
+    <Label fx:id="messageLabel" style="-fx-text-fill: #E74C3C; -fx-font-size: 14px;"/>
+</VBox>

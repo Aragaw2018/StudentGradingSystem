@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.studentgradingsystem.controller.StudentDashboardController">
+
+    <!-- Top Header -->
+    <top>
+        <HBox spacing="20.0" style="-fx-background-color: #2E86C1;" prefHeight="70.0" alignment="CENTER_LEFT">
+            <padding>
+                <Insets left="20.0" right="20.0"/>
+            </padding>
+            <Text text="STUDENT GRADE PORTAL" fill="WHITE" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+            <Region HBox.hgrow="ALWAYS" />
+            <Label fx:id="welcomeLabel" text="Welcome, Student" textFill="WHITE" style="-fx-font-size: 16px;"/>
+            <Button text="Logout" onAction="#handleLogout" style="-fx-background-color: #E74C3C; -fx-text-fill: white; -fx-font-weight: bold; -fx-cursor: hand;"/>
+        </HBox>
+    </top>
+
+    <!-- Main Content Area -->
+    <center>
+        <VBox spacing="20.0" alignment="TOP_CENTER">
+            <padding>
+                <Insets top="30" right="40" bottom="30" left="40"/>
+            </padding>
+            <Text text="My Academic Performance" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-fill: #2C3E50;"/>
+
+            <TableView fx:id="gradeTable" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="colSubject" text="Subject Name" prefWidth="250"/>
+                    <TableColumn fx:id="colMarks" text="Marks Obtained" prefWidth="150"/>
+                    <TableColumn fx:id="colGrade" text="Grade" prefWidth="100"/>
+                    <TableColumn fx:id="colStatus" text="Status" prefWidth="120"/>
+                </columns>
+            </TableView>
+        </VBox>
+    </center>
+</BorderPane>

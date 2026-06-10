@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+
+<VBox spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.studentgradingsystem.controller.ReportController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <HBox alignment="CENTER_LEFT" spacing="20">
+        <Text text="Teacher Grade Report" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+        <Region HBox.hgrow="ALWAYS" />
+        <TextField fx:id="searchField" promptText="Search by Student Name..." prefWidth="250" onKeyReleased="#handleSearch"/>
+        <Button text="Export CSV" onAction="#handleExportCSV" style="-fx-background-color: #F39C12; -fx-text-fill: white; -fx-font-weight: bold;"/>
+    </HBox>
+
+    <TableView fx:id="reportTable" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="colStudent" text="Student Name" prefWidth="200"/>
+            <TableColumn fx:id="colSubject" text="Subject" prefWidth="150"/>
+            <TableColumn fx:id="colMarks" text="Marks" prefWidth="100"/>
+            <TableColumn fx:id="colGrade" text="Grade" prefWidth="100"/>
+            <TableColumn fx:id="colStatus" text="Status" prefWidth="120"/>
+        </columns>
+    </TableView>
+</VBox>
