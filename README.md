@@ -19,7 +19,7 @@ A modular Desktop Application built with Java and JavaFX to manage student recor
 
 
 
-## 🛠 Tech Stack
+## Tech Stack
 *   **Language:** Java 21+
 *   **UI Framework:** JavaFX
 *   **Build Tool:** Maven
@@ -28,14 +28,10 @@ A modular Desktop Application built with Java and JavaFX to manage student recor
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 ### 1. Database Configuration
 1. Open **XAMPP Control Panel** and start Apache and MySQL.
 2. Go to `phpMyAdmin` and create a database named `student_grading_db`.
 3. Import the provided `db_script.sql` file located in the root directory to set up tables and sample data.
 
-### 2. Project Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/StudentGradingSystem.git
