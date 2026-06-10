@@ -5,54 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bca51a6-feb4-4b77-9abc-6501729a5710" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/controller/AdminDashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/controller/ForgotPasswordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/controller/MarksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/controller/ReportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/controller/StudentDashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/controller/SubjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/controller/TeacherDashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/database/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/model/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/model/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/model/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/service/GradingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/util/SceneSwitcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/util/UserSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/studentgradingsystem/util/ValidationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/admin_dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/forgot_password.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/images/dashboard_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/images/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/images/teacher_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/marks_entry.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/reports.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/student_dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/students.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/subjects.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/teacher_dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/studentgradingsystem/fxml/teachers.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenshotsProjectUserInterface/StudentDashbord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenshotsProjectUserInterface/TeacherDashbord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenshotsProjectUserInterface/TeacherEnterMark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenshotsProjectUserInterface/adminDashbord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenshotsProjectUserInterface/adminMangeStudent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenshotsProjectUserInterface/adminMangeSubject.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenshotsProjectUserInterface/adminMangeTeacher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenshotsProjectUserInterface/loginPage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,23 +40,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0047429487671682" />
-      <entry key="MS500" value="1.3429340735036654" />
-      <entry key="S2" value="1.794689987220859" />
-      <entry key="S5" value="2.1426154146684295" />
-      <entry key="S10" value="2.4419698775513803" />
-      <entry key="S30" value="2.7728737347313506" />
-      <entry key="S60" value="2.8802838721288326" />
-      <entry key="M2" value="2.9508388077550096" />
-      <entry key="M5" value="3.5820230039973553" />
-      <entry key="M10" value="5.7579628532517395" />
-      <entry key="M15" value="8.059614226221232" />
-      <entry key="M30" value="13.985226178985409" />
-      <entry key="H1" value="21.50235048845281" />
-      <entry key="H2" value="28.283298441103202" />
-      <entry key="H4" value="33.006895869073404" />
-      <entry key="D1" value="37.897012081251496" />
-      <entry key="W1" value="38.8396385096762" />
+      <entry key="MS100" value="1.0000000000020464" />
+      <entry key="MS500" value="1.004594106446449" />
+      <entry key="S2" value="1.2603456134006832" />
+      <entry key="S5" value="1.5839968445938617" />
+      <entry key="S10" value="1.7851117140904336" />
+      <entry key="S30" value="2.456569648075954" />
+      <entry key="S60" value="3.6257916837677016" />
+      <entry key="M2" value="5.7075743975434" />
+      <entry key="M5" value="10.414520637848076" />
+      <entry key="M10" value="15.389259328697896" />
+      <entry key="M15" value="18.98593422052098" />
+      <entry key="M30" value="26.711809427830886" />
+      <entry key="H1" value="35.802997944381154" />
+      <entry key="H2" value="43.95470425157083" />
+      <entry key="H4" value="49.67498478857521" />
+      <entry key="D1" value="55.64596659661807" />
+      <entry key="W1" value="56.80297224630008" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -117,23 +78,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.008214990490475065" />
-      <entry key="MS500" value="0.6651276578682546" />
-      <entry key="S2" value="1.5473508137842449" />
-      <entry key="S5" value="2.0330422484160255" />
-      <entry key="S10" value="2.38438563187075" />
-      <entry key="S30" value="2.752823573038795" />
-      <entry key="S60" value="2.870130125720687" />
-      <entry key="M2" value="2.945724447686429" />
-      <entry key="M5" value="3.57990537168929" />
-      <entry key="M10" value="5.756743809662849" />
-      <entry key="M15" value="8.058458690869546" />
-      <entry key="M30" value="13.983177934735538" />
-      <entry key="H1" value="21.499477773817976" />
-      <entry key="H2" value="28.280742042638977" />
-      <entry key="H4" value="33.00517197195433" />
-      <entry key="D1" value="37.89664167667888" />
-      <entry key="W1" value="38.839583217437976" />
+      <entry key="MS100" value="0.9265880618922671" />
+      <entry key="MS500" value="0.9893910241697483" />
+      <entry key="S2" value="1.2555499329714193" />
+      <entry key="S5" value="1.5815832163420902" />
+      <entry key="S10" value="1.7837515796528778" />
+      <entry key="S30" value="2.4559457203884687" />
+      <entry key="S60" value="3.6253087961954282" />
+      <entry key="M2" value="5.706996117722711" />
+      <entry key="M5" value="10.413482617180634" />
+      <entry key="M10" value="15.388181840548912" />
+      <entry key="M15" value="18.984823299364955" />
+      <entry key="M30" value="26.709967063048808" />
+      <entry key="H1" value="35.80032821625965" />
+      <entry key="H2" value="43.95223113905688" />
+      <entry key="H4" value="49.673276331635776" />
+      <entry key="D1" value="55.645591478351875" />
+      <entry key="W1" value="56.80291603559158" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -145,30 +106,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fxtools.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.Launcher.executor": "Run",
+    "Application.MainApp.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fxtools.settings"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
